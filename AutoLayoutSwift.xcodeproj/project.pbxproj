@@ -14,6 +14,15 @@
 		042DECF51E9481F3008FEE7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DECF31E9481F3008FEE7A /* LaunchScreen.storyboard */; };
 		042DED001E9481F4008FEE7A /* AutoLayoutSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DECFF1E9481F4008FEE7A /* AutoLayoutSwiftTests.swift */; };
 		042DED0B1E9481F4008FEE7A /* AutoLayoutSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED0A1E9481F4008FEE7A /* AutoLayoutSwiftUITests.swift */; };
+		042DED191E94828E008FEE7A /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED181E94828E008FEE7A /* MainTableViewController.swift */; };
+		042DED1C1E948787008FEE7A /* ExampleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED1B1E948787008FEE7A /* ExampleOneViewController.swift */; };
+		042DED1E1E9489AF008FEE7A /* ExampleOneBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED1D1E9489AF008FEE7A /* ExampleOneBaseView.swift */; };
+		042DED221E948F00008FEE7A /* ExampleOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED211E948F00008FEE7A /* ExampleOneView.swift */; };
+		042DED251E94CE25008FEE7A /* exampleTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED241E94CE25008FEE7A /* exampleTableViewViewController.swift */; };
+		042DED271E94CEAB008FEE7A /* ExampleTableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED261E94CEAB008FEE7A /* ExampleTableview.swift */; };
+		042DED661E95CE58008FEE7A /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED651E95CE58008FEE7A /* AutoTableViewController.swift */; };
+		042DED6B1E95D5EA008FEE7A /* AutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED691E95D5EA008FEE7A /* AutoTableViewCell.swift */; };
+		042DED6C1E95D5EA008FEE7A /* AutoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042DED6A1E95D5EA008FEE7A /* AutoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		042DED061E9481F4008FEE7A /* AutoLayoutSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042DED0A1E9481F4008FEE7A /* AutoLayoutSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutSwiftUITests.swift; sourceTree = "<group>"; };
 		042DED0C1E9481F4008FEE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042DED181E94828E008FEE7A /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		042DED1B1E948787008FEE7A /* ExampleOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOneViewController.swift; sourceTree = "<group>"; };
+		042DED1D1E9489AF008FEE7A /* ExampleOneBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOneBaseView.swift; sourceTree = "<group>"; };
+		042DED211E948F00008FEE7A /* ExampleOneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOneView.swift; sourceTree = "<group>"; };
+		042DED241E94CE25008FEE7A /* exampleTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exampleTableViewViewController.swift; sourceTree = "<group>"; };
+		042DED261E94CEAB008FEE7A /* ExampleTableview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableview.swift; sourceTree = "<group>"; };
+		042DED651E95CE58008FEE7A /* AutoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
+		042DED691E95D5EA008FEE7A /* AutoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewCell.swift; sourceTree = "<group>"; };
+		042DED6A1E95D5EA008FEE7A /* AutoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +115,12 @@
 		042DECE91E9481F3008FEE7A /* AutoLayoutSwift */ = {
 			isa = PBXGroup;
 			children = (
+				042DED641E95CE58008FEE7A /* exampleTableviewAuto */,
+				042DED1A1E948775008FEE7A /* exampleOne */,
+				042DED231E94CE07008FEE7A /* exampleTableView */,
 				042DECEA1E9481F3008FEE7A /* AppDelegate.swift */,
 				042DECEC1E9481F3008FEE7A /* ViewController.swift */,
+				042DED181E94828E008FEE7A /* MainTableViewController.swift */,
 				042DECEE1E9481F3008FEE7A /* Main.storyboard */,
 				042DECF11E9481F3008FEE7A /* Assets.xcassets */,
 				042DECF31E9481F3008FEE7A /* LaunchScreen.storyboard */,
@@ -123,6 +145,35 @@
 				042DED0C1E9481F4008FEE7A /* Info.plist */,
 			);
 			path = AutoLayoutSwiftUITests;
+			sourceTree = "<group>";
+		};
+		042DED1A1E948775008FEE7A /* exampleOne */ = {
+			isa = PBXGroup;
+			children = (
+				042DED1B1E948787008FEE7A /* ExampleOneViewController.swift */,
+				042DED1D1E9489AF008FEE7A /* ExampleOneBaseView.swift */,
+				042DED211E948F00008FEE7A /* ExampleOneView.swift */,
+			);
+			path = exampleOne;
+			sourceTree = "<group>";
+		};
+		042DED231E94CE07008FEE7A /* exampleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				042DED241E94CE25008FEE7A /* exampleTableViewViewController.swift */,
+				042DED261E94CEAB008FEE7A /* ExampleTableview.swift */,
+			);
+			path = exampleTableView;
+			sourceTree = "<group>";
+		};
+		042DED641E95CE58008FEE7A /* exampleTableviewAuto */ = {
+			isa = PBXGroup;
+			children = (
+				042DED651E95CE58008FEE7A /* AutoTableViewController.swift */,
+				042DED691E95D5EA008FEE7A /* AutoTableViewCell.swift */,
+				042DED6A1E95D5EA008FEE7A /* AutoTableViewCell.xib */,
+			);
+			path = exampleTableviewAuto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +288,7 @@
 			files = (
 				042DECF51E9481F3008FEE7A /* LaunchScreen.storyboard in Resources */,
 				042DECF21E9481F3008FEE7A /* Assets.xcassets in Resources */,
+				042DED6C1E95D5EA008FEE7A /* AutoTableViewCell.xib in Resources */,
 				042DECF01E9481F3008FEE7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +314,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042DED271E94CEAB008FEE7A /* ExampleTableview.swift in Sources */,
+				042DED221E948F00008FEE7A /* ExampleOneView.swift in Sources */,
+				042DED1E1E9489AF008FEE7A /* ExampleOneBaseView.swift in Sources */,
 				042DECED1E9481F3008FEE7A /* ViewController.swift in Sources */,
+				042DED191E94828E008FEE7A /* MainTableViewController.swift in Sources */,
+				042DED1C1E948787008FEE7A /* ExampleOneViewController.swift in Sources */,
+				042DED251E94CE25008FEE7A /* exampleTableViewViewController.swift in Sources */,
+				042DED661E95CE58008FEE7A /* AutoTableViewController.swift in Sources */,
+				042DED6B1E95D5EA008FEE7A /* AutoTableViewCell.swift in Sources */,
 				042DECEB1E9481F3008FEE7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
