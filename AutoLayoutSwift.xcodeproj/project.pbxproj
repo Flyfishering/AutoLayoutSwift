@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A04061E9F15B00017BB92 /* UpdataConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A04051E9F15B00017BB92 /* UpdataConstraintViewController.swift */; };
+		040A04081E9F15C50017BB92 /* UpdataConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A04071E9F15C50017BB92 /* UpdataConstraintView.swift */; };
 		042DECEB1E9481F3008FEE7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DECEA1E9481F3008FEE7A /* AppDelegate.swift */; };
 		042DECED1E9481F3008FEE7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DECEC1E9481F3008FEE7A /* ViewController.swift */; };
 		042DECF01E9481F3008FEE7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042DECEE1E9481F3008FEE7A /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		042DED661E95CE58008FEE7A /* AutoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED651E95CE58008FEE7A /* AutoTableViewController.swift */; };
 		042DED6B1E95D5EA008FEE7A /* AutoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DED691E95D5EA008FEE7A /* AutoTableViewCell.swift */; };
 		042DED6C1E95D5EA008FEE7A /* AutoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042DED6A1E95D5EA008FEE7A /* AutoTableViewCell.xib */; };
+		043340A61EA0C71D004B57E6 /* HuggingAndCompressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043340A41EA0C71D004B57E6 /* HuggingAndCompressViewController.swift */; };
+		043340A71EA0C71D004B57E6 /* HuggingAndCompressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043340A51EA0C71D004B57E6 /* HuggingAndCompressViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A04051E9F15B00017BB92 /* UpdataConstraintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdataConstraintViewController.swift; sourceTree = "<group>"; };
+		040A04071E9F15C50017BB92 /* UpdataConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdataConstraintView.swift; sourceTree = "<group>"; };
 		042DECE71E9481F3008FEE7A /* AutoLayoutSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042DECEA1E9481F3008FEE7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042DECEC1E9481F3008FEE7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +71,8 @@
 		042DED651E95CE58008FEE7A /* AutoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewController.swift; sourceTree = "<group>"; };
 		042DED691E95D5EA008FEE7A /* AutoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTableViewCell.swift; sourceTree = "<group>"; };
 		042DED6A1E95D5EA008FEE7A /* AutoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoTableViewCell.xib; sourceTree = "<group>"; };
+		043340A41EA0C71D004B57E6 /* HuggingAndCompressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuggingAndCompressViewController.swift; sourceTree = "<group>"; };
+		043340A51EA0C71D004B57E6 /* HuggingAndCompressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HuggingAndCompressViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040A04041E9F15770017BB92 /* UpdateConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				040A04051E9F15B00017BB92 /* UpdataConstraintViewController.swift */,
+				040A04071E9F15C50017BB92 /* UpdataConstraintView.swift */,
+			);
+			path = UpdateConstraints;
+			sourceTree = "<group>";
+		};
 		042DECDE1E9481F3008FEE7A = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +132,8 @@
 		042DECE91E9481F3008FEE7A /* AutoLayoutSwift */ = {
 			isa = PBXGroup;
 			children = (
+				043340A31EA0C6FA004B57E6 /* HuggingAndCompress */,
+				040A04041E9F15770017BB92 /* UpdateConstraints */,
 				042DED641E95CE58008FEE7A /* exampleTableviewAuto */,
 				042DED1A1E948775008FEE7A /* exampleOne */,
 				042DED231E94CE07008FEE7A /* exampleTableView */,
@@ -174,6 +193,15 @@
 				042DED6A1E95D5EA008FEE7A /* AutoTableViewCell.xib */,
 			);
 			path = exampleTableviewAuto;
+			sourceTree = "<group>";
+		};
+		043340A31EA0C6FA004B57E6 /* HuggingAndCompress */ = {
+			isa = PBXGroup;
+			children = (
+				043340A41EA0C71D004B57E6 /* HuggingAndCompressViewController.swift */,
+				043340A51EA0C71D004B57E6 /* HuggingAndCompressViewController.xib */,
+			);
+			path = HuggingAndCompress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +316,7 @@
 			files = (
 				042DECF51E9481F3008FEE7A /* LaunchScreen.storyboard in Resources */,
 				042DECF21E9481F3008FEE7A /* Assets.xcassets in Resources */,
+				043340A71EA0C71D004B57E6 /* HuggingAndCompressViewController.xib in Resources */,
 				042DED6C1E95D5EA008FEE7A /* AutoTableViewCell.xib in Resources */,
 				042DECF01E9481F3008FEE7A /* Main.storyboard in Resources */,
 			);
@@ -320,8 +349,11 @@
 				042DECED1E9481F3008FEE7A /* ViewController.swift in Sources */,
 				042DED191E94828E008FEE7A /* MainTableViewController.swift in Sources */,
 				042DED1C1E948787008FEE7A /* ExampleOneViewController.swift in Sources */,
+				043340A61EA0C71D004B57E6 /* HuggingAndCompressViewController.swift in Sources */,
 				042DED251E94CE25008FEE7A /* exampleTableViewViewController.swift in Sources */,
 				042DED661E95CE58008FEE7A /* AutoTableViewController.swift in Sources */,
+				040A04081E9F15C50017BB92 /* UpdataConstraintView.swift in Sources */,
+				040A04061E9F15B00017BB92 /* UpdataConstraintViewController.swift in Sources */,
 				042DED6B1E95D5EA008FEE7A /* AutoTableViewCell.swift in Sources */,
 				042DECEB1E9481F3008FEE7A /* AppDelegate.swift in Sources */,
 			);
@@ -572,6 +604,7 @@
 				042DED111E9481F4008FEE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042DED121E9481F4008FEE7A /* Build configuration list for PBXNativeTarget "AutoLayoutSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +613,7 @@
 				042DED141E9481F4008FEE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		042DED151E9481F4008FEE7A /* Build configuration list for PBXNativeTarget "AutoLayoutSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +622,7 @@
 				042DED171E9481F4008FEE7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

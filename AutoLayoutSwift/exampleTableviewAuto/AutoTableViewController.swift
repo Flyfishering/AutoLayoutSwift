@@ -45,7 +45,13 @@ class AutoTableViewController: UITableViewController {
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 100
     }
-
+   
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let index:IndexPath = NSIndexPath.init(row: 1, section: 0) as IndexPath
+        self.tableView(self.tableView, didSelectRowAt: index)
+        self.tableView.selectRow(at: index , animated: true, scrollPosition: UITableViewScrollPosition.bottom)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -72,6 +78,9 @@ class AutoTableViewController: UITableViewController {
     }
     
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
