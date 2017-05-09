@@ -24,7 +24,6 @@ class exampleTableViewViewController: UIViewController {
         let tableviewDemo = ExampleTableview.init(titleArr: titles)
         tableviewDemo.add(to: self.view)
 
-        
     }
 
     override func didReceiveMemoryWarning() {

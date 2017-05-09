@@ -19,6 +19,16 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q6d-Nv-mIE">
+                    <rect key="frame" x="62.5" y="183.5" width="250" height="300"/>
+                    <color key="backgroundColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="2.0"/>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.0" green="1" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="TRv-d2-Rzp">
                     <rect key="frame" x="62.5" y="183.5" width="250" height="300"/>
                     <subviews>
@@ -84,7 +94,7 @@
                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oeJ-aU-lBK">
                             <rect key="frame" x="0.0" y="220.5" width="250" height="79.5"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" horizontalCompressionResistancePriority="751" text="Compression Resistance =&gt; content does not want to shrink" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsW-Mz-oiz" userLabel="titleLabel">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="248" horizontalCompressionResistancePriority="751" text="Compression  =&gt; content does not want to shrink" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsW-Mz-oiz" userLabel="titleLabel">
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="79.5"/>
                                     <color key="backgroundColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -94,7 +104,7 @@
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" red="0.98823529409999999" green="0.79607843140000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.30196078430000001" green="0.74117647060000003" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="250" id="2kZ-Oz-PfX"/>
                         <constraint firstAttribute="height" constant="300" id="c6R-d6-2SV"/>
@@ -102,10 +112,14 @@
                     </constraints>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="Q6d-Nv-mIE" firstAttribute="leading" secondItem="TRv-d2-Rzp" secondAttribute="leading" id="05P-aj-O2M"/>
+                <constraint firstItem="Q6d-Nv-mIE" firstAttribute="trailing" secondItem="TRv-d2-Rzp" secondAttribute="trailing" id="BmD-1C-OAM"/>
+                <constraint firstItem="Q6d-Nv-mIE" firstAttribute="top" secondItem="TRv-d2-Rzp" secondAttribute="top" id="FWc-Fx-cof"/>
                 <constraint firstItem="TRv-d2-Rzp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ldg-Pp-FOs"/>
                 <constraint firstItem="TRv-d2-Rzp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Snw-z4-wqw"/>
+                <constraint firstItem="Q6d-Nv-mIE" firstAttribute="bottom" secondItem="TRv-d2-Rzp" secondAttribute="bottom" id="wcB-Mn-eDj"/>
             </constraints>
         </view>
     </objects>
